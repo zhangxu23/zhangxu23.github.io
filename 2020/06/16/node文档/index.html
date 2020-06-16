@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>node文档 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="node文档处理有文件的表单nodeformidable 官方文档 form提交方式如果在form表单提交时有文件上传那么需要在form中加enctype&#x3D;“multipart&#x2F;form-data” 方式必须是post 1&lt;form  id&#x3D;&quot;form1&quot; name&#x3D;&quot;myForm&quot; action&#x3D;&quot;&quot; method&#x3D;&quot;post&quot; enctype&#x3D;&quot;multipart&#x2F;form-data&quot;&amp;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="node文档">
+<meta property="og:url" content="http://yoursite.com/2020/06/16/node%E6%96%87%E6%A1%A3/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="node文档处理有文件的表单nodeformidable 官方文档 form提交方式如果在form表单提交时有文件上传那么需要在form中加enctype&#x3D;“multipart&#x2F;form-data” 方式必须是post 1&lt;form  id&#x3D;&quot;form1&quot; name&#x3D;&quot;myForm&quot; action&#x3D;&quot;&quot; method&#x3D;&quot;post&quot; enctype&#x3D;&quot;multipart&#x2F;form-data&quot;&amp;">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-06-16T07:28:56.000Z">
+<meta property="article:modified_time" content="2020-06-16T08:06:18.817Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-node文档" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/06/16/node%E6%96%87%E6%A1%A3/" class="article-date">
+  <time datetime="2020-06-16T07:28:56.000Z" itemprop="datePublished">2020-06-16</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      node文档
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="node文档"><a href="#node文档" class="headerlink" title="node文档"></a>node文档</h1><h2 id="处理有文件的表单"><a href="#处理有文件的表单" class="headerlink" title="处理有文件的表单"></a>处理有文件的表单</h2><p><a href="https://github.com/node-formidable/formidable" target="_blank" rel="noopener">nodeformidable 官方文档</a></p>
+<h3 id="form提交方式"><a href="#form提交方式" class="headerlink" title="form提交方式"></a>form提交方式</h3><p>如果在form表单提交时有文件上传那么需要在form中加enctype=“multipart/form-data” 方式必须是post</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span>  <span class="attr">id</span>=<span class="string">"form1"</span> <span class="attr">name</span>=<span class="string">"myForm"</span> <span class="attr">action</span>=<span class="string">""</span> <span class="attr">method</span>=<span class="string">"post"</span> <span class="attr">enctype</span>=<span class="string">"multipart/form-data"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="jquery处理"><a href="#jquery处理" class="headerlink" title="jquery处理"></a>jquery处理</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">"#form1"</span>).submit(<span class="function"><span class="keyword">function</span> (<span class="params">event</span>) </span>&#123;</span><br><span class="line">         event.preventDefault();</span><br><span class="line">         $.ajax(&#123;</span><br><span class="line">             url:<span class="string">"/user/register"</span>,</span><br><span class="line">             type:<span class="string">"POST"</span>,</span><br><span class="line">             data:<span class="keyword">new</span> FormData(<span class="keyword">this</span>),</span><br><span class="line">             contentType:<span class="literal">false</span>,</span><br><span class="line">             processData:<span class="literal">false</span>,</span><br><span class="line">             success:<span class="function"><span class="keyword">function</span>(<span class="params">status</span>)</span>&#123;</span><br><span class="line">                 <span class="built_in">console</span>.log(status);</span><br><span class="line">             &#125;</span><br><span class="line">         &#125;)</span><br><span class="line">     &#125;)</span><br></pre></td></tr></table></figure>
+<h3 id="引用formidable"><a href="#引用formidable" class="headerlink" title="引用formidable"></a>引用formidable</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> Formidable = <span class="built_in">require</span>(<span class="string">'formidable'</span>);</span><br><span class="line"><span class="keyword">const</span> util = <span class="built_in">require</span>(<span class="string">'util'</span>);</span><br><span class="line"><span class="keyword">const</span> form = <span class="keyword">new</span> Formidable();</span><br><span class="line">form.uploadDir = <span class="string">"/my/dir"</span>;<span class="comment">//上传路径</span></span><br><span class="line">form.keepExtensions = <span class="literal">true</span>;<span class="comment">//扩展名</span></span><br><span class="line">form.parse(req, (err, fields, files) =&gt; &#123;</span><br><span class="line">  res.writeHead(<span class="number">200</span>, &#123; <span class="string">'content-type'</span>: <span class="string">'text/plain'</span> &#125;);</span><br><span class="line">  res.write(<span class="string">'received upload:\n\n'</span>);</span><br><span class="line">  res.end(util.inspect(&#123; <span class="attr">fields</span>: fields, <span class="attr">files</span>: files &#125;));</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<h3 id="结果示例"><a href="#结果示例" class="headerlink" title="结果示例"></a>结果示例</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">received upload:  </span><br><span class="line"></span><br><span class="line">&#123; fields: &#123; title: 'title的内容' &#125;,  </span><br><span class="line">  files:      //所有type="file"类型的数据对象  </span><br><span class="line">   &#123; upload:   </span><br><span class="line">      &#123; domain: null,  </span><br><span class="line">        _events: &#123;&#125;,  </span><br><span class="line">        _maxListeners: 10,  </span><br><span class="line">        size: 41966,             //文件大小  </span><br><span class="line">        path: '/my/dir/upload_ecbf965abc1e14c2ffc86875c2f5eaa8.jpg',   //文件保存路径  </span><br><span class="line">        name: 'avatar.jpg',     //上传前的文件名  </span><br><span class="line">        type: 'image/jpeg',    //文件类型  </span><br><span class="line">        hash: null,  </span><br><span class="line">        lastModifiedDate: Sat May 16 2015 10:38:57 GMT+0800 (CST),  </span><br><span class="line">        _writeStream: [Object] </span><br><span class="line">        &#125;</span><br><span class="line">    &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/06/16/node%E6%96%87%E6%A1%A3/" data-id="ckbhn4kl90002bgvfeks2fp8c" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2020/06/16/js%E6%96%87%E6%A1%A3/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          js文档
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/06/16/Python%E6%96%87%E6%A1%A3/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Python文档</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/06/">June 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/06/16/hexo%E6%96%87%E6%A1%A3/">hexo文档</a>
+          </li>
+        
+          <li>
+            <a href="/2020/06/16/js%E6%96%87%E6%A1%A3/">js文档</a>
+          </li>
+        
+          <li>
+            <a href="/2020/06/16/node%E6%96%87%E6%A1%A3/">node文档</a>
+          </li>
+        
+          <li>
+            <a href="/2020/06/16/Python%E6%96%87%E6%A1%A3/">Python文档</a>
+          </li>
+        
+          <li>
+            <a href="/2020/06/16/test/">test</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
